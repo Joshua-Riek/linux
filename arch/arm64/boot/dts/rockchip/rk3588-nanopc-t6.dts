@@ -970,6 +970,11 @@
 	status = "okay";
 };
 
+&gpu {
+	mali-supply = <&vdd_gpu_s0>;
+	status = "okay";
+};
+
 &hdptxphy_hdmi0 {
 	status = "okay";
 };
